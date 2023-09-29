@@ -11,7 +11,20 @@ df = pd.DataFrame(technologies,index=index_labels)
 print(df)
 
 
-
 # Query Rows using DataFrame.query()
-df2=df.query("Courses == 'Spark'")
+df2 = df.query("Courses == 'Spark'")
+
+# Using variable
+value='Spark'
+df2=df.query("Courses == @value")
+
+# Inpace
+df.query("Courses == 'Spark'",inplace=True)
+
+# Not equals, in & multiple conditions
+df.query("Courses != 'Spark'")
+df.query("Courses in ('Spark','PySpark')")
+df.query("`Courses Fee` >= 23000")
+df.query("`Courses Fee` >= 23000 and `Courses Fee` <= 24000")
+
 
