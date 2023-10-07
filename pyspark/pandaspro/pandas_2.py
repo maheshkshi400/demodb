@@ -76,5 +76,5 @@ df = pd.DataFrame(tuples_list, columns = ['Courses', 'Fee', 'Duration'])
 
 # create datframe
 import pandas as pd
-df = pd.read_csv(J:/organizations-100.csv)
+df = pd.read_csv(J:/J:/books/Power BI/organizations-100.csv)
 print(df)
