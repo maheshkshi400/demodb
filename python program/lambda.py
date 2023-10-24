@@ -1,5 +1,6 @@
-x = lambda a,b : a*b
-print(x(3,3))
+x = lambda y,z : y*z
+print(x(y,z))
 
-x = lambda c : c*3
-print(x(5))
+
+y =int(input("Entar a number:  "))
+z =int(input("Entar a number:  "))

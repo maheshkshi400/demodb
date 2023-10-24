@@ -1160,3 +1160,15 @@ Oct 20, 2023 8:57:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Oct 20, 2023 9:58:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.10.20 10:01:01 INFO  Shutting down server
+2023.10.20 10:01:02 INFO  shutting down Metals
+2023.10.20 10:07:38 INFO  Started: Metals version 1.1.0 in folders 'E:\python\scala\demodb' for client Visual Studio Code 1.83.1.
+2023.10.20 10:07:38 INFO  time: initialize in 0.22s
+2023.10.20 10:07:54 WARN  Build server is not auto-connectable.
+2023.10.20 10:07:54 WARN  no build tool detected in workspace 'E:\python\scala\demodb'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.10.20 17:39:36 INFO  Shutting down server
+2023.10.20 17:39:36 INFO  shutting down Metals
+2023.10.24 19:26:27 INFO  Started: Metals version 1.1.0 in folders 'E:\python\scala\demodb' for client Visual Studio Code 1.83.1.
+2023.10.24 19:26:28 INFO  time: initialize in 0.13s
+2023.10.24 19:26:39 WARN  no build tool detected in workspace 'E:\python\scala\demodb'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.10.24 19:26:39 WARN  Build server is not auto-connectable.
