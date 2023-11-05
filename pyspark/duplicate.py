@@ -27,3 +27,5 @@ schema1 = ['id','name','gender','age','salary','dept','deptno','contactno']
 df2 = spark.createDataFrame(data=data,schema=schema1)
 df2.show()
 
+
+
